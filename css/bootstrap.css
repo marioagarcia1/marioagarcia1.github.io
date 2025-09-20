@@ -130,6 +130,8 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
+    -moz-appearance: button;
+          appearance: button;
   cursor: pointer;
 }
 button[disabled],
@@ -158,8 +160,8 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
-          box-sizing: content-box;
-  -webkit-appearance: textfield;
+            box-sizing: content-box;
+            -webkit-appearance: compatible;
 }
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
