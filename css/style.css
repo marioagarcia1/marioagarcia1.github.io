@@ -261,7 +261,7 @@ p {
     border-radius: 0;
 }
 .progress-bar { 
-    background-color: #2d8a22;
+    background-color: #106b6e;
 }
 .bar-grids h6 {
     font-size: 1em;
@@ -286,15 +286,15 @@ p {
 .experience-left {
     float: left;
     width: 30%;
-    background: #2d8a22;
+    background: #1992a1;
     text-align: center;
     padding: 2em 0;
     border: 2px solid #1dadd3;
 	-webkit-transition: .5s all;
 	-moz-transition: .5s all;
-	transition: .5s all;
-	-o-transition: .5s all;
 	-ms-transition: .5s all;
+	-o-transition: .5s all;
+	transition: .5s all;
 } 
 .experience-right {
     float: right;
