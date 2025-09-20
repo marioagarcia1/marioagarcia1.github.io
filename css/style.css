@@ -422,7 +422,8 @@ p {
     border-bottom: 1px solid #fff;
     background: none;
     -webkit-appearance: none;
-	outline: none;
+    appearance: none;
+    outline: none;
 }
 .contact textarea { 
     min-height: 13em; 
