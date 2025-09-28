@@ -374,7 +374,7 @@ p {
     object-fit: cover; /* ajusta sem deformar, cortando se necessário */
 }
 .gallery-bnu-hover .view-caption {
-	background-color: rgba(34 173 211 / 0.75);
+	background-color: rgb(34 173 211    );
 	border: 5px solid #fff;
 	bottom: 0;
 	color: #fff;
@@ -394,7 +394,7 @@ p {
 	transition: all 0.75s ease-in-out 0s;
 }
 .gallery-bnu-hover .view-caption h5 {
-	color: #fff;
+	color: #000000;
 	font-size: 1.5em;
 	padding-top: 25.5%;
 	-webkit-transition: all 0.75s ease-in-out 0s;
