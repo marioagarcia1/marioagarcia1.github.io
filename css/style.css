@@ -971,4 +971,27 @@ p.agile-br {
 }
 /*-- //responsive-design --*/
 
+/* --- MOBILE: até 768px --- */
+@media (max-width: 768px) {
+
+    /* Alinhar o container do botão à direita */
+    .navbar-right {
+        float: right !important;
+        text-align: right;
+        width: 100%;
+    }
+
+    /* Garantir que o botão encoste à direita */
+    .navbar-toggle {
+        float: right;
+        margin-right: 0;
+    }
+
+    /* Centralizar itens do menu quando abrirem */
+    .menu ul {
+        text-align: center;
+    }
+}
+
+
     
